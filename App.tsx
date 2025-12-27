@@ -2,7 +2,6 @@
 import React from 'react';
 import { bookImages } from './constants/images';
 import { MapPin, Tag, Feather, BookOpen, Palette, PenTool, Award, Heart, Monitor } from 'lucide-react';
-import AudioPlayer from './components/AudioPlayer';
 
 // A soft, watercolor-like background component
 const WatercolorBackground = () => (
@@ -108,7 +107,6 @@ const App = () => {
     return (
         <>
             <WatercolorBackground />
-            <AudioPlayer src="/mnt/audio/music.mp3" />
             
             <div className="min-h-screen text-slate-800 font-sans selection:bg-amber-200 selection:text-amber-900">
                 <main className="container mx-auto px-4 py-8 md:py-16 space-y-20 md:space-y-32 pb-32">
@@ -157,7 +155,7 @@ const App = () => {
                             <div className="order-1 md:order-2 relative">
                                 <div className="absolute inset-0 bg-sky-200 rounded-full translate-x-4 translate-y-4 blur opacity-50"></div>
                                 <img 
-                                    src={bookImages.author} 
+                                    src={bookImages.author2} 
                                     alt="שחר ברגר" 
                                     className="relative w-full max-w-md mx-auto h-80 md:h-96 object-top rounded-tr-[4rem] rounded-bl-[4rem] rounded-tl-2xl rounded-br-2xl shadow-xl border-8 border-white object-cover transform duration-500" 
                                 />
@@ -186,7 +184,6 @@ const App = () => {
                                 <p className="text-lg leading-relaxed text-slate-600">
                                     הספר מוקדש לאחיין שלי, <span className="font-bold text-teal-700">נבו</span>, ולכל אדם בעולם – ילד, נער, חייל, סטודנט או מבוגר – 
                                     ונועד להראות לו שהחיים שלנו הם בחירה, <span className="font-bold">ועלינו לבחור כיצד לחיות את החיים</span>.
-                                    <span className="block font-bold mt-2">יש בך הכל זו לא רק שורה משיר, זו המציאות!</span>
                                 </p>
                             </div>
                         </div>
@@ -229,6 +226,7 @@ const App = () => {
                             </div>
                             <h3 className="font-bold text-slate-500 mb-2">מחיר הספר</h3>
                             <p className="text-5xl font-black text-slate-800">75 ₪</p>
+                            <p className="text-2xl font-bold font-black mt-2">(99 ₪ במשלוח)</p>
                         </div>
 
                         {/* Pickup Card */}
@@ -237,12 +235,8 @@ const App = () => {
                                 <MapPin className="w-8 h-8 text-teal-600"/>
                             </div>
                             <h3 className="font-bold text-slate-700 mb-3 text-xl leading-snug">
-                                לתיאום איסוף עצמי של הספר והזמנת הרצאות
-                            </h3>
+                           לתיאום הרצאות, איסוף הספר באופן עצמאי (ללא משלוח) ופרטים נוספים:                            </h3>
                             <p className="text-2xl font-black text-teal-800 dir-ltr mb-4">שחר 050-666-0505</p>
-                            <p className="text-slate-600 text-lg leading-relaxed">
-                                מסירת ספרים שנרכשו תתבצע באופן מרוכז גם בימי שישי בין השעות <span dir="ltr">8:00-9:00</span> בגינת הבנים ברמת השרון
-                            </p>
                         </div>
                     </div>
                     

@@ -5,6 +5,7 @@ export const bookImages = {
     
     // Author Image - Shahar Berger (Google Drive Thumbnail link)
     author: 'https://drive.google.com/thumbnail?id=1VxlotAJNuC9w-59du89O-dzN9ZJFZ09p&sz=w1000',
+    author2: 'https://drive.google.com/thumbnail?id=1u00ygHG892H61yrBaye9vOfMNXwYAWXo&sz=w1000',
     
     // Illustrations (Google Drive Thumbnail links)
     page1: 'https://drive.google.com/thumbnail?id=17RmFd77JDJzxEIWJ4-rcsCqSO5NrbeTc&sz=w1000', 
