@@ -143,7 +143,7 @@ const App = () => {
                                 <SectionTitle color="text-teal-900">היי, נעים מאוד ❤️</SectionTitle>
                                 <p>
                                     <strong className="text-2xl text-teal-700 block mb-2">שמי שחר ברגר,</strong> 
-תושב רמת השרון, בן 29, עורך דין.                                </p>
+תושב רמת השרון, בן 29, עורך דין. מגמם לשעבר.                            </p>
                                 <p className="bg-amber-50 p-6 rounded-2xl border-r-4 border-amber-300 italic">
                                     "בילדות שלי התחבאתי, שתקתי, עד שבתקופה של התיכון ובעיקר בצבא הבנתי דבר אחד: הכל תלוי בי, בביטחון שלי."
                                 </p>
@@ -171,7 +171,7 @@ const App = () => {
                         <div className="space-y-8 text-center max-w-3xl mx-auto">
                             <div className="space-y-4">
                                 <p className="text-xl md:text-2xl leading-relaxed text-slate-700">
-                                    זהו ספר על ילד קטן שמגלה שהפחד הוא לא אויב, אלא מורה דרך. 
+                                    זהו ספר על ילד קטן שמגלה שהגמגום הוא לא אויב, אלא מורה דרך. 
                                     <span className="block mt-2 font-bold text-teal-700">שהמשבר הוא לא משבר, אלא מבשר.</span>
                                 </p>
                                 <p className="text-lg leading-relaxed text-slate-600">
