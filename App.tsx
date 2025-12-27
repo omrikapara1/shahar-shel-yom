@@ -143,8 +143,7 @@ const App = () => {
                                 <SectionTitle color="text-teal-900">היי, נעים מאוד ❤️</SectionTitle>
                                 <p>
                                     <strong className="text-2xl text-teal-700 block mb-2">שמי שחר ברגר,</strong> 
-                                    תושב רמת השרון, בן 29. אני עובד כיום כעורך דין במחלקת הליטיגציה המסחרית של משרד פרגן פלס ושות', עורכי דין.
-                                </p>
+תושב רמת השרון, בן 29, עורך דין.                                </p>
                                 <p className="bg-amber-50 p-6 rounded-2xl border-r-4 border-amber-300 italic">
                                     "בילדות שלי התחבאתי, שתקתי, עד שבתקופה של התיכון ובעיקר בצבא הבנתי דבר אחד: הכל תלוי בי, בביטחון שלי."
                                 </p>
